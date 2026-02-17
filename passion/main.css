@@ -1,0 +1,31 @@
+body{
+
+    background-color: black;outline-style: solid;background-image: url(freaknik\ \(10\).jpg);
+    
+}
+
+.border-box
+{
+    border: 20px solid #ff7979;
+    font-family: Arial, Helvetica, sans-serif;font-size: large;font-feature-settings: "blwf"6;font-weight: bolder; 
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height:px;
+    padding:50px;
+;   margin: 20px;
+}
+
+.a-box
+{
+    border: 5px solid #ff7979;
+    font-family: Arial, Helvetica, sans-serif;font-size: large;font-feature-settings: "blwf"6;font-weight: bolder; 
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height:px;
+    padding:50px;
+    margin: 40px;
+}
+.a-box img{
+    width: fit-content;   height: fit-content;
+}
+

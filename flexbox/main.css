@@ -1,0 +1,45 @@
+body{
+
+    background-color: black;
+    
+}
+
+.block{
+
+    background-color: white;
+   
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+.inline{
+
+    background-color: rgb(218, 78, 218);
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    padding: 50px;
+display: inline-block;
+}
+
+.container{
+    background-color: rgb(230, 143, 230);
+
+ margin: 50px;
+    padding: 50px;
+    display: flex;
+
+    /*tells the dorection of item in contanier*/
+    flex-direction: row-reverse;
+
+}
+
+.item
+{
+    background-color: rgb(218, 78, 218);
+    border:5px solid;
+     border-color: blue;
+    width: 100px;
+
+}
