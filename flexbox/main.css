@@ -25,14 +25,16 @@ display: inline-block;
 
 .container{
     background-color: rgb(230, 143, 230);
-
- margin: 50px;
     padding: 50px;
     display: flex;
-
-    /*tells the dorection of item in contanier*/
+height: 600px;
+    /*tells main axis of contanier*/
     flex-direction: row-reverse;
-
+    flex-wrap: wrap;
+    /*main acess allignment for justify content*/
+    justify-content:flex-end;
+     align-items: flex-end;
+     gap: 20px;
 }
 
 .item
@@ -40,6 +42,6 @@ display: inline-block;
     background-color: rgb(218, 78, 218);
     border:5px solid;
      border-color: blue;
-    width: 100px;
+    width: 150px;
 
 }
