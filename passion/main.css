@@ -1,12 +1,9 @@
 body{
 
-    background-color: black;outline-style: solid;background-image: url(blkjoyme.jpg);background-size: cover;background-position: center;
-    
-}
-
+    background-color: black;background-image: url(pink-star-background-d1b07dmje96y8qvj.png);background: size cover;background-position:center;background-repeat: space}
 .border-box
 {
-    border: 20px solid #ff7979;
+    border: 20px solid hwb(323 27% 0%);
     font-family: Arial, Helvetica, sans-serif;font-size: large;font-feature-settings: "blwf"6;font-weight: bolder; 
     background-color: rgb(255, 255, 255);
     width: 600px;
@@ -14,10 +11,14 @@ body{
     padding:50px;
 ;   margin: 20px;
 }
-
+.border-box img{
+    width: 150px;   height: auto;
+  
+    margin: 10px;
+}
 .a-box
 {
-    border: 5px solid #ff7979;
+    border: 5px solid hwb(323 27% 0%);
     font-family: Arial, Helvetica, sans-serif;font-size: large;font-feature-settings: "blwf"6;font-weight: bolder; 
     background-color: rgb(255, 255, 255);
     width: 300px;
@@ -26,6 +27,79 @@ body{
     margin: 40px;
 }
 .a-box img{
-    width: fit-content;   height: fit-content;
+    width: 200px;   height: auto;
+    border: 2px solid #ff7979;
+    margin: 10px;
 }
 
+.b-box
+{
+    border: 5px solid  hwb(323 27% 0%);
+    font-family: Arial, Helvetica, sans-serif;font-size: large;font-feature-settings: "blwf"6;font-weight: bolder; 
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height:px;
+    padding:50px;
+    margin: 300px;
+}
+.b-box img{
+    width: 200px;   height:auto;
+    border: hwb(323 27% 0%) 2px solid;
+    margin: 10px;
+}
+
+.c-box
+{
+    border: 5px solid hwb(323 27% 0%);
+    font-family: Arial, Helvetica, sans-serif;font-size: large;font-feature-settings: "blwf"6;font-weight: bolder; 
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height:px;
+    padding:50px;
+    margin: 500px;
+    
+
+  }  
+  c.box img{
+    width: 200px;   height:auto;
+    border:  hwb(323 27% 0%) 2px solid;
+   }
+  
+  
+  
+  
+  .d-box
+{
+    border: 5px solid  hwb(323 27% 0%);
+    font-family: Arial, Helvetica, sans-serif;font-size: large;font-feature-settings: "blwf"6;font-weight: bolder; 
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height:px;
+    padding:50px;
+    margin: 600px;
+    
+
+  }
+  .d-box img{
+    border:  hwb(323 27% 0%) 2px solid;
+    width: 200px;   height:auto;
+   }
+
+   .e-box
+{
+    border: 5px solid  hwb(323 27% 0%);
+    font-family: Arial, Helvetica, sans-serif;font-size: large;font-feature-settings: "blwf"6;font-weight: bolder; 
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height:px;
+    padding:50px;
+    margin: 50px;
+    
+
+  }
+
+  .e-box img  
+  {
+    width: 200px;   height:auto;
+    border:  hwb(323 27% 0%) 2px solid;
+   }
