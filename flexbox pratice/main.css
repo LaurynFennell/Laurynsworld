@@ -3,11 +3,9 @@
 
 body{
 
-    background-color: rgb(255, 0, 0);background-image: url(team.jpg)
+    background-color: rgb(0, 0, 0);
 }
-
-
-.content-box
+.top
 {
     background-color: rgb(255, 163, 223);
     width:200px;
@@ -17,7 +15,41 @@ body{
 ;   margin: 20px
 }
 
-.border-box {
+.top-item
+{
+    background-color: rgb(255, 163, 223);
+    width:200px;
+    height:200px;
+    padding:50px;
+    border: 5px solid blanchedalmond
+;   margin: 20px
+}
+.center-item
+{
+    background-color: rgb(255, 163, 223);
+    width:200px;
+    height:200px;
+    padding:50px;
+    border: 5px solid blanchedalmond;margin-bottom: 20px;background-color:rgb(255,163,223);
+}
+.bottom
+{
+    background-color: rgb(255, 163, 223);
+    width:200px;
+    height:200px;
+    padding:50px;
+    border: 5px solid blanchedalmond;}
+
+.left
+{
+    background-color: rgb(255, 163, 223);
+    width:200px;
+    height:200px;
+    padding:50px;
+    border: 5px solid blanchedalmond;}
+
+
+.right{
     background-color: rgb(255, 163, 223);
     width:200px;
     height:200px;
@@ -27,20 +59,5 @@ body{
 ;   box-sizing: border-box;
 }
 
-.sticky{
-    position: sticky;
-    top: 0;
-    background-color: rgb(115, 166, 255);
-     border: 5px solid rgb(116, 238, 228)
-
-}
-.a-box{
-    background-color: rgb(255, 163, 223);
-    width:200px;
-    height:200px;
-    padding:50px;
-    border: 5px solid blanchedalmond;margin-bottom: ;}
-.b-box{
-    background-color: rgb(255, 163, 223);}
 
 
