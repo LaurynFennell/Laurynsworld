@@ -1,0 +1,402 @@
+body{
+
+    margin: 0%;
+    overflow: hidden; 
+}
+
+
+*{ 
+    box-sizing: border-box;
+
+
+}
+.box{
+    
+
+   background-color: aquamarine;
+    height: 200px;
+    width: 200px; ;
+    animation-name:test ;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-iteration-count:1;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+    
+@keyframes test{
+
+    0%{background-color: red;
+       
+    }
+    100%{background-color: yellow;
+        
+
+    }
+}
+
+
+.cont{
+background-color: black;
+height:100vh ;
+display: flex;
+align-content: center;
+justify-content: space-evenly;
+
+
+
+}
+
+
+.cir {
+
+background-color: aqua;
+height: 500px;
+width: 500px;
+border-radius: 100%;
+
+justify-content: center;
+overflow: hidden;
+
+animation-name: pluse;
+animation-duration:5s;
+animation-iteration-count:infinite
+
+     }
+.cir img{
+    height: 150px;
+    width: 150px; ;
+ width: 100%;
+  height: 100%;
+  opacity:40% ;
+  object-fit: cover;
+  
+  
+}
+vido{
+    display: flex;height: 500px;
+}
+
+.flex{
+height: 300px;
+width: 300px;
+background-color: aliceblue
+;
+animation-name:spin
+; animation-duration: 4s;
+animation-iteration-count:infinite;
+border-radius:  100%
+
+
+
+}
+
+@keyframes spin{
+
+   0%{
+  rotate:0deg;background-color: darkmagenta;
+ 
+   } 
+100%
+   { 
+    rotate:360deg
+;
+
+}
+   }
+
+   @keyframes pluse{
+
+   0%{
+  scale:1;
+  background-color:blueviolet;right: 200px;
+
+   } 
+100%
+   { 
+    scale:1.4;
+   background-color: palevioletred
+   ; right:200px;
+
+   }
+
+
+   }
+    @keyframes pluse2{
+
+   0%{
+  scale:1;
+  background-color:rgb(255, 155, 217);right: 200px;
+    rotate:1px;
+   } 
+100%
+   { 
+    scale:1.4;
+   background-color: rgb(255, 0, 85)
+   ;
+   rotate:365px;
+
+   }
+
+
+   }
+
+
+@keyframes move
+{
+
+0%{
+left:-150px
+
+
+}
+100%
+{
+
+    left: 100%
+                }
+
+
+
+
+}
+.flex2{
+height: 300px;
+width: 300px;
+background-color: aliceblue
+;
+animation-name:pluse
+; animation-duration: 4s;
+animation-iteration-count:infinite;
+border-radius:  100% ;
+justify-content: center;
+overflow: hidden;
+
+
+}
+.flex2 video{
+height: 150px;
+    width: 150px; ;
+ width: 100%;
+  height: 100%;
+  opacity:40% ;
+  object-fit: cover;
+  
+
+}
+
+
+.flex3
+{
+height: 100px;
+width: 100px;
+background-color: aliceblue
+;
+animation-name:pluse2
+; animation-duration: 4s;
+animation-iteration-count:infinite;
+border-radius:  100%
+;justify-content: center;
+overflow: hidden;
+
+
+
+
+}
+
+.flex4{
+    height: 200px
+    ;
+width: 200x;
+background-color: aliceblue
+;
+animation-name:pluse
+; animation-duration: 4s;
+animation-iteration-count:infinite;
+border-radius:  100%;
+justify-content: center;
+overflow: hidden;
+
+
+}
+.spinbox{
+ height: 200px
+ ;
+width: 400px;
+background-color: rgb(38, 224, 208)
+;
+animation-name:spin
+; animation-duration: 4s;
+animation-iteration-count:infinite;
+border-radius:  100%;
+ animation: bounce1 6s infinite ease-in-out;
+
+}
+
+
+
+body {
+  margin: 0;
+  overflow: hidden; /* Prevents scrollbars */
+}
+
+.spinbox2{
+  width: 90px;
+  height: 90px;
+  background-color: rgb(255, 0, 119);
+  animation-name:pluse 4s infinite;
+  border-radius:  100%;
+  left:300px;
+  position: absolute;
+  /* Apply animation: name, duration, timing, repetition */
+  animation: pulse 3s infinite alternate ease-in-out;
+  overflow: hidden;
+  animation:bounce  4s infinite ease-in-out;
+  animation-delay:1s;
+ 
+}
+
+.c2
+{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 135, 191);
+  animation-name:pluse 4s infinite;
+  border-radius:  100%;
+  position:absolute;
+  /* Apply animation: name, duration, timing, repetition */
+  animation: pulse 3s infinite alternate ease-in-out;
+  overflow: hidden;
+  animation:bounce  6s infinite ease-in-out;
+  animation-delay: 5s
+}
+
+.c3
+{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(116, 3, 56);
+  animation-name:pluse 4s infinite;
+  border-radius:  100%;
+  bottom: 0%;
+  position:absolute;
+  /* Apply animation: name, duration, timing, repetition */
+  animation: pulse 3s infinite alternate ease-in-out;
+  overflow: hidden;
+  animation:bounce  7s infinite ease-in-out alternate reverse;
+  animation-delay: 5s;
+}
+
+  .c1{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 77, 160);
+  animation-name:pluse 4s infinite;
+  border-radius:  100%;
+  position:absolute;
+  /* Apply animation: name, duration, timing, repetition */
+  animation: pulse 3s infinite alternate ease-in-out;
+  overflow: hidden;
+  animation:bounce  10s infinite ease-in-out;
+  animation-delay: 3s;
+ 
+ 
+}
+
+@keyframes bounce {
+  0% { top: 0; left: 0;}
+    100% { top: calc(130
+        vh - 50px); left: calc(100vw - 50px); }
+        
+        
+        0%{
+  scale:1;
+  background-color:rgb(255, 45, 178);right: 200px;
+
+   } 
+100%
+   { 
+    scale:1.4;
+   background-color: rgb(255, 255, 255)
+   ; right:200px;
+
+   }
+
+ 
+}
+
+@keyframes bounce1 {
+  0% { bottom: 0; right: 0;}
+    100% { bottom: calc(100vh - 50px); right: calc(100vw - 50px);} }
+
+
+
+#boucningcanvas{
+
+   width: 50px;
+    height: 50px;
+    background-color: rgb(255, 244, 244);
+    border-radius: 50%;
+    position: absolute; }
+
+    .c4
+{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(240, 224, 232);
+  animation-name:pluse 4s infinite;
+  border-radius:  100%;
+  position:absolute;
+  /* Apply animation: name, duration, timing, repetition */
+  animation: pulse 3s infinite alternate ease-in-out;
+  overflow: hidden;
+  animation:bounce  9s
+  infinite ease-in-out alternate;
+  animation-delay: 9s;
+}
+.c5
+
+{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(217, 13, 108);
+  animation-name:pluse 4s infinite;
+  border-radius:  100%;
+  position:absolute;
+  /* Apply animation: name, duration, timing, repetition */
+  animation: pulse 3s infinite alternate ease-in-out;
+  overflow: hidden;
+  animation:bounce 4s infinite
+   ease-in-out alternate;
+  animation-delay: 6s
+}
+.c6
+{
+  width: 70px;
+  height: 70px;
+  background-color: rgb(3, 0, 2);
+  animation-name:pluse 4s infinite;
+  border-radius:  100%;
+  position:absolute;
+  /* Apply animation: name, duration, timing, repetition */
+  animation: pulse 3s infinite alternate ease-in-out;
+  overflow: hidden;
+  animation:bounce  14s
+  infinite ease-in-out ;
+  animation-delay: 5s;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: rgb(7, 7, 7);
+    color: rgb(226, 246, 255);
+  }
+}
+@media screen and (max-width:900px) {
+  body {
+    background-color: rgb(188, 183, 245);
+    color: white;
+  }
+}
