@@ -1,0 +1,36 @@
+
+body{
+   position: center;
+   
+    background-color: black;
+}
+
+button {
+    background-color: rgb(255, 84, 170);
+    width: 220px;
+    height: 120px;
+    font-size: 16px;
+    padding: 12px 20px;
+    size: 200px;
+    font-style: color white;
+  justify-content: center; 
+  align-items: center;   
+}
+
+ .container{
+
+    display: flex;
+    position:center;
+    display: flex;          
+   justify-content: center; 
+   align-items: center;   
+    background-color: rgb(0, 0, 0);
+
+    
+ }
+img{
+ width: 50px;
+ height: auto;
+    
+}
+

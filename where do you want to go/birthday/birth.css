@@ -1,0 +1,102 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust as needed */
+  overflow: hidden; /* Clips any video overlap */
+}
+
+.background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 500px;
+  height: 500px;
+  z-index: -1; /* Places video behind content */
+  transform: translate(-50%, -50%); /* Centers the video */
+  
+  object-fit: cover ; /* Ensures video fills container without stretching */
+  opacity: 0%;
+}
+
+.rainfall{
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust as needed */
+  overflow: hidden; /* Clips any video overlap */}
+
+.background-video1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 500px;
+  height: 500px;
+  z-index: -1; /* Places video behind content */
+  transform: translate(-50%, -50%); /* Centers the video */
+  object-fit: cover; /* Ensures video fills container without stretching */
+  opacity: 0%;
+}
+
+
+
+
+button{
+
+    background-color: rgb(255, 255, 255);
+    font-style: color rgb(255, 0, 0);
+    top: 10px;
+    left: 10px;
+     display: flex;
+     align-items: center;
+       justify-content: center;
+       gap: 15px;
+       font-size: 15px;
+}
+
+.play-audio{
+
+    background-color: black;
+    
+  }
+  .pause-audio{
+
+background-color: black;
+
+  }
+.container{
+   position: relative;
+  width: 100%;
+  height: 100%;
+  top: auto; /* Adjust as needed */
+  overflow: hidden; /* Clips any video overlap
+  */ opacity:100%;
+  background-color: black;
+
+}
+
+
+.box{
+    background-color: rgb(171, 252, 252);
+    height: 100px;
+    width: 100px;
+   
+
+}
+.birthday{
+    
+    transition: 2s;
+    opacity: 100%;
+
+
+
+
+    }
+  
