@@ -1,0 +1,149 @@
+
+
+<!doctype html> 
+<html>
+<head >
+    
+    <title>dressup</title>
+     <link rel="stylesheet" href="main.css">
+    
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>
+</head>
+     
+<body>
+      <button onclick="change()">Click me...</button>
+   <video autoplay muted loop playsinline id="backvideo">
+  <source src="back2.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<!-- Foreground Content -->
+<div class="content">
+  <h1>design your lauryn!</h1>
+</div>
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>  
+
+<div class="playarea">
+
+<img id="background" class="layer" src="images/back1.png">
+
+    <img id="face" class="layer" src="">
+
+    <img id="hair" class="layer" src="">
+
+    <img id="glasses" class="layer" src="">
+
+    <img id="nose" class="layer" src="">
+
+    <img id="tattoos" class="layer" src="
+    ">
+
+
+
+
+
+</div>
+       <div class="menu">
+
+choose your theme and design!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="menusel">
+        
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     
+    
+
+<fieldset>
+        <legend>background</legend>
+      <button onclick="nextItem('background')">next</button>
+
+      <button onclick="prevItem('background')">back</button>
+      <button onclick="prevItem('background')">clear</button>
+
+     </fieldset>
+    
+
+     <fieldset>
+        <legend>glasses</legend>
+     
+        <button onclick="nextItem('glasses')">next</button>
+
+        <button onclick="prevItem('glasses')">back</button>
+         <button onclick="prevItem('glasses')">clear</button>
+
+     </fieldset> 
+
+     <fieldset>
+        <legend>"hair"</legend>
+      <button onclick="nextItem('hair')">next</button>
+
+      <button onclick="prevItem('hair')">back</button>
+
+      <button onclick="prevItem('hair')">clear</button>
+     </fieldset>
+
+     <fieldset>
+        <legend>nose</legend>
+      <button onclick="nextItem('nose')">next</button>
+
+      <button onclick="prevItem('nose')">back</button>
+      <button onclick="prevItem('nose')">clear</button>
+
+     </fieldset>
+
+     <fieldset>
+        <legend>tattoos</legend>
+      <button onclick="nextItem('tattoos')">next</button>
+
+      <button onclick="prevItem('tattoos')">back</button>
+
+      <button onclick="prevItem('tattoos')">clear</button>
+
+     </fieldset>
+       </div>
+
+       </div>
+
+       
+       <div class="gear">
+
+
+       </div>
+ 
+
+
+
+
+      <script>
+       function change() {
+           console.log('it works!');
+            document.querySelector(".menu").classList.toggle("active");
+            document.querySelector(".gear").classList.toggle("spin");
+           }
+      </script>
+  
+     
+     <script src="jquery-4.0.0.min.js"></script>
+     <script src="main.js"></script>
+</body>
+
+</head>
+
+</html>
