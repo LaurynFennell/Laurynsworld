@@ -210,6 +210,11 @@ display: inline-block;
 position: absolute;
     top: 500px;
    left: 125px;
+   background-image: url(blog\ \(1\).jpg);
+  background-size: contain; /* Ensures the image fills the container */
+  background-position: center bottom; /* Centers the image */
+  background-repeat: no-repeat;
+
 
 }
 
